@@ -1,0 +1,29 @@
+@font-face {
+    font-family: MinchoNormal;
+    src: url(./fonts/ShipporiMinchoB1-Regular.ttf)
+}
+@font-face {
+    font-family: MinchoBold;
+    src: url(./fonts/ShipporiMinchoB1-Bold.ttf);
+    font-weight: bold;
+}
+* {
+    font-family: MinchoNormal;
+    background-color: #292929;
+    color: whitesmoke;
+    text-align:center;
+    padding:1%;
+}
+
+a {
+    font-size: 100%;
+    color: #bf5700;
+    transition: font-size 0.5s;
+}
+a:hover {
+    font-size: 110%;
+}
+
+#post_div {
+    text-decoration: solid underline;
+}

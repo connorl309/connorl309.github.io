@@ -16,35 +16,59 @@
 
 a {
     font-size: 100%;
-    text-decoration: none; /* no underlines */
     color: #bf5700;
-    transition: font-size 1.5s;
+    transition: font-size 0.5s;
 }
 a:hover {
-    font-size: 150%;
+    font-size: 110%;
+}
+
+#introdiv {
+    padding-left:3%;
 }
 
 #intro-header {
-    position: relative;
-    top: 35px;
-    left: 100px;
     font-size: 350%;
 }
 #intro-header strong {
     font-size: 90%;
-    font-style: italic;
 }
 
 #about-me {
-    position: relative;
     font-family: MinchoNormal;
     font-size: 150%;
-    top: 35px;
-    left: 110px;
 }
 
 #interests {
-    position: relative;
-    top: 35px;
-    left: 110px;
+    font-size: 200%;
+}
+listEmbed {
+    color: lightsalmon;
+}
+#interests dt {
+    font-family: MinchoBold;
+    font-size: 80%;
+    color: lightsalmon;
+}
+#interests dd {
+    font-family: MinchoNormal;
+    font-size: 70%;
+}
+
+
+#links {
+    font-size: 200%;
+}
+#links p {
+    font-size: 70%;
+}
+
+.footer {
+    font-size: 125%;
+    position:sticky;
+    top:100px;
+    left:0;
+    bottom:0;
+    text-align:center;
+    width:100%;
 }
