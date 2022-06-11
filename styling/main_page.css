@@ -39,22 +39,48 @@ a:hover {
     font-size: 150%;
 }
 
-#interests {
-    font-size: 200%;
+#topics {
+    display: flex;
+    font-size: 135%;
+    margin: auto;
+    overflow:auto;
+}
+#topics div {
+    flex-grow: 0;
+    flex-basis: auto;
+    padding: 5px;
+}
+#topics dl {
+    font-size: 130%;
 }
 listEmbed {
     color: lightsalmon;
 }
-#interests dt {
+#topics dt {
     font-family: MinchoBold;
     font-size: 80%;
     color: lightsalmon;
+    margin-top: 1%;
 }
-#interests dd {
+#topics dd {
     font-family: MinchoNormal;
     font-size: 70%;
 }
 
+img {
+    width: 30%;
+}
+
+#posts-redirects ul{
+    text-align: center;
+    list-style: none;
+    color: whitesmoke;
+}
+#posts-redirects li {
+    font-size: 120%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 
 #links {
     font-size: 200%;

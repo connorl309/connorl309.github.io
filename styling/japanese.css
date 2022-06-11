@@ -1,0 +1,106 @@
+@font-face {
+    font-family: MinchoNormal;
+    src: url(./fonts/ShipporiMinchoB1-Regular.ttf)
+}
+@font-face {
+    font-family: MinchoBold;
+    src: url(./fonts/ShipporiMinchoB1-Bold.ttf);
+    font-weight: bold;
+}
+
+* {
+    font-family: MinchoNormal;
+    background-color: #292929;
+    color: whitesmoke;
+    list-style: none;
+}
+
+a {
+    font-size: 100%;
+    color: #bf5700;
+    transition: font-size 0.5s;
+    text-decoration: solid underline;
+    white-space: normal;
+}
+a:hover {
+    font-size: 105%;
+}
+
+#header_stuff {
+    text-align: center;
+    position: sticky;
+    font-size: 150%;
+    color:whitesmoke;
+}
+
+img {
+    width: 60%;
+}
+
+li {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+h1 {
+    padding: 1%;
+    text-align: center;
+    font-size: 300%;
+    color: lightsalmon;
+}
+#kanji_field {
+    color: whitesmoke;
+}
+h2 {
+    padding: 0.6%;
+    text-align: center;
+    font-size: 180%;
+    color: lightsalmon;
+}
+#parent_splitter {
+    display: flex;
+    font-size: 135%;
+    margin: auto;
+    overflow:auto;
+}
+#parent_splitter div {
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+#resources {
+    width:100%;
+    text-align: left;
+}
+
+#writeup p {
+    text-align: center;
+    font-family: MinchoNormal;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#kanji {
+    text-align: center;
+    font-family: MinchoBold;
+    font-size: 300%;
+}
+#kanji_field {
+    margin: 0;
+    font-size: 400%;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 1%;
+    font-size: inherit;
+    display: inline-block;
+    transition: color 0.5s, background-color 0.5s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #3d3d3d;
+    color: lightsalmon;
+}
